@@ -1,0 +1,75 @@
+$abcFlex :flex;
+$yacColor:#c3cfe2;
+$yadColor:lightgrey;
+$yaeColor: white;
+$abcFont: sans-serif;
+$abcText: center;
+
+@import "./body";
+@import "./main";
+
+.alomvattend{
+    height: 780px;
+    width: 400px;
+    margin: 10px;
+    border: 1.5px solid $yacColor;
+    background: $yacColor;
+    position: relative;
+    border-radius: 0px;
+}
+
+.block{          
+        height: 500px;
+        width: 356px;
+        padding: 5px;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-left: 15px ;
+        border: 1.5px solid $yadColor;
+        background: $yaeColor;
+        border-radius: 20px 20px 0px 0px;
+        &__p {
+             word-spacing: 10px;
+             font-size: 30px;
+        }     
+}
+
+.onderblok{
+    display: $abcFlex;
+    justify-content: center; 
+    height: 230px;
+    width: 356px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px ;
+    border: 1.5px solid $yadColor;
+    background: #686de0;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.name{
+    color: $yaeColor;
+    font: $abcFont;
+    text-align: $abcText;
+    margin: 80px;
+    font-size: 30px;
+}
+
+.site{
+    color: $yacColor ;
+    font: $abcFont;
+    text-align: $abcText;
+    font-size: 20px;
+}
+
+.photo{
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+    margin-left: 100px;
+    border-radius: 50%;
+    border: 8px solid $yaeColor;
+    box-shadow: 0 0 3px $yaeColor;
+}
+
